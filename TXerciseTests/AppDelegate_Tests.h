@@ -7,7 +7,12 @@
 //
 
 #import <SenTestingKit/SenTestingKit.h>
+#import "AppDelegate.h"
+#import "MainViewController.h"
 
 @interface AppDelegate_Tests : SenTestCase
+{
+    AppDelegate *appDelegate;
+}
 
 @end

@@ -16,13 +16,13 @@
 		8CD976E516A97452005DAF43 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CD976E416A97452005DAF43 /* Default.png */; };
 		8CD976E716A97452005DAF43 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CD976E616A97452005DAF43 /* Default@2x.png */; };
 		8CD976E916A97452005DAF43 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CD976E816A97452005DAF43 /* Default-568h@2x.png */; };
-		8CD976EC16A97452005DAF43 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD976EB16A97452005DAF43 /* ViewController.m */; };
-		8CD976EF16A97452005DAF43 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8CD976ED16A97452005DAF43 /* ViewController.xib */; };
 		8CD976F716A97453005DAF43 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CD976F616A97453005DAF43 /* SenTestingKit.framework */; };
 		8CD976F816A97453005DAF43 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CD976D216A97452005DAF43 /* UIKit.framework */; };
 		8CD976F916A97453005DAF43 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CD976D416A97452005DAF43 /* Foundation.framework */; };
 		8CD9770116A97453005DAF43 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8CD976FF16A97453005DAF43 /* InfoPlist.strings */; };
-		8CD9770416A97453005DAF43 /* TXerciseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD9770316A97453005DAF43 /* TXerciseTests.m */; };
+		8CD9771316A97772005DAF43 /* AppDelegate_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD9771216A97772005DAF43 /* AppDelegate_Tests.m */; };
+		8CD9771816A97FEA005DAF43 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD9771616A97FEA005DAF43 /* MainViewController.m */; };
+		8CD9771916A97FEA005DAF43 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8CD9771716A97FEA005DAF43 /* MainViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,15 +49,15 @@
 		8CD976E416A97452005DAF43 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		8CD976E616A97452005DAF43 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		8CD976E816A97452005DAF43 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		8CD976EA16A97452005DAF43 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		8CD976EB16A97452005DAF43 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		8CD976EE16A97452005DAF43 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
 		8CD976F516A97453005DAF43 /* TXerciseTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TXerciseTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CD976F616A97453005DAF43 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		8CD976FE16A97453005DAF43 /* TXerciseTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TXerciseTests-Info.plist"; sourceTree = "<group>"; };
 		8CD9770016A97453005DAF43 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		8CD9770216A97453005DAF43 /* TXerciseTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TXerciseTests.h; sourceTree = "<group>"; };
-		8CD9770316A97453005DAF43 /* TXerciseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TXerciseTests.m; sourceTree = "<group>"; };
+		8CD9771116A97772005DAF43 /* AppDelegate_Tests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate_Tests.h; sourceTree = "<group>"; };
+		8CD9771216A97772005DAF43 /* AppDelegate_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate_Tests.m; sourceTree = "<group>"; };
+		8CD9771516A97FEA005DAF43 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		8CD9771616A97FEA005DAF43 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		8CD9771716A97FEA005DAF43 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,9 +119,9 @@
 			children = (
 				8CD976E116A97452005DAF43 /* AppDelegate.h */,
 				8CD976E216A97452005DAF43 /* AppDelegate.m */,
-				8CD976EA16A97452005DAF43 /* ViewController.h */,
-				8CD976EB16A97452005DAF43 /* ViewController.m */,
-				8CD976ED16A97452005DAF43 /* ViewController.xib */,
+				8CD9771516A97FEA005DAF43 /* MainViewController.h */,
+				8CD9771616A97FEA005DAF43 /* MainViewController.m */,
+				8CD9771716A97FEA005DAF43 /* MainViewController.xib */,
 				8CD976D916A97452005DAF43 /* Supporting Files */,
 			);
 			path = TXercise;
@@ -144,8 +144,8 @@
 		8CD976FC16A97453005DAF43 /* TXerciseTests */ = {
 			isa = PBXGroup;
 			children = (
-				8CD9770216A97453005DAF43 /* TXerciseTests.h */,
-				8CD9770316A97453005DAF43 /* TXerciseTests.m */,
+				8CD9771116A97772005DAF43 /* AppDelegate_Tests.h */,
+				8CD9771216A97772005DAF43 /* AppDelegate_Tests.m */,
 				8CD976FD16A97453005DAF43 /* Supporting Files */,
 			);
 			path = TXerciseTests;
@@ -235,7 +235,7 @@
 				8CD976E516A97452005DAF43 /* Default.png in Resources */,
 				8CD976E716A97452005DAF43 /* Default@2x.png in Resources */,
 				8CD976E916A97452005DAF43 /* Default-568h@2x.png in Resources */,
-				8CD976EF16A97452005DAF43 /* ViewController.xib in Resources */,
+				8CD9771916A97FEA005DAF43 /* MainViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,7 +272,7 @@
 			files = (
 				8CD976DF16A97452005DAF43 /* main.m in Sources */,
 				8CD976E316A97452005DAF43 /* AppDelegate.m in Sources */,
-				8CD976EC16A97452005DAF43 /* ViewController.m in Sources */,
+				8CD9771816A97FEA005DAF43 /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,7 +280,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8CD9770416A97453005DAF43 /* TXerciseTests.m in Sources */,
+				8CD9771316A97772005DAF43 /* AppDelegate_Tests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,14 +301,6 @@
 				8CD976DC16A97452005DAF43 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		8CD976ED16A97452005DAF43 /* ViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8CD976EE16A97452005DAF43 /* en */,
-			);
-			name = ViewController.xib;
 			sourceTree = "<group>";
 		};
 		8CD976FF16A97453005DAF43 /* InfoPlist.strings */ = {
@@ -447,6 +439,7 @@
 				8CD9770916A97453005DAF43 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8CD9770A16A97453005DAF43 /* Build configuration list for PBXNativeTarget "TXerciseTests" */ = {
 			isa = XCConfigurationList;
@@ -455,6 +448,7 @@
 				8CD9770C16A97453005DAF43 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
