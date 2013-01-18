@@ -26,7 +26,7 @@
     [super tearDown];
 }
 
-- (void)test
+- (void)testAppDelegateWindow
 {
     STAssertTrue([appDelegate.window.rootViewController isKindOfClass:[UINavigationController class]], @"window rootViewController has to be navi controller");
     

@@ -23,6 +23,9 @@
 		8CD9771316A97772005DAF43 /* AppDelegate_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD9771216A97772005DAF43 /* AppDelegate_Tests.m */; };
 		8CD9771816A97FEA005DAF43 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD9771616A97FEA005DAF43 /* MainViewController.m */; };
 		8CD9771916A97FEA005DAF43 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8CD9771716A97FEA005DAF43 /* MainViewController.xib */; };
+		8CD9771B16A99763005DAF43 /* sapus-monus-selection-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CD9771A16A99763005DAF43 /* sapus-monus-selection-hd.png */; };
+		8CD9771E16A9AEA4005DAF43 /* MainViewController_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD9771D16A9AEA4005DAF43 /* MainViewController_Tests.m */; };
+		8CD9772116A9B7FF005DAF43 /* FakeUITouch.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD9772016A9B7FF005DAF43 /* FakeUITouch.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +61,11 @@
 		8CD9771516A97FEA005DAF43 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		8CD9771616A97FEA005DAF43 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		8CD9771716A97FEA005DAF43 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		8CD9771A16A99763005DAF43 /* sapus-monus-selection-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sapus-monus-selection-hd.png"; sourceTree = "<group>"; };
+		8CD9771C16A9AEA3005DAF43 /* MainViewController_Tests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController_Tests.h; sourceTree = "<group>"; };
+		8CD9771D16A9AEA4005DAF43 /* MainViewController_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController_Tests.m; sourceTree = "<group>"; };
+		8CD9771F16A9B7FF005DAF43 /* FakeUITouch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FakeUITouch.h; sourceTree = "<group>"; };
+		8CD9772016A9B7FF005DAF43 /* FakeUITouch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FakeUITouch.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +130,7 @@
 				8CD9771516A97FEA005DAF43 /* MainViewController.h */,
 				8CD9771616A97FEA005DAF43 /* MainViewController.m */,
 				8CD9771716A97FEA005DAF43 /* MainViewController.xib */,
+				8CD9771A16A99763005DAF43 /* sapus-monus-selection-hd.png */,
 				8CD976D916A97452005DAF43 /* Supporting Files */,
 			);
 			path = TXercise;
@@ -146,6 +155,10 @@
 			children = (
 				8CD9771116A97772005DAF43 /* AppDelegate_Tests.h */,
 				8CD9771216A97772005DAF43 /* AppDelegate_Tests.m */,
+				8CD9771C16A9AEA3005DAF43 /* MainViewController_Tests.h */,
+				8CD9771D16A9AEA4005DAF43 /* MainViewController_Tests.m */,
+				8CD9771F16A9B7FF005DAF43 /* FakeUITouch.h */,
+				8CD9772016A9B7FF005DAF43 /* FakeUITouch.m */,
 				8CD976FD16A97453005DAF43 /* Supporting Files */,
 			);
 			path = TXerciseTests;
@@ -236,6 +249,7 @@
 				8CD976E716A97452005DAF43 /* Default@2x.png in Resources */,
 				8CD976E916A97452005DAF43 /* Default-568h@2x.png in Resources */,
 				8CD9771916A97FEA005DAF43 /* MainViewController.xib in Resources */,
+				8CD9771B16A99763005DAF43 /* sapus-monus-selection-hd.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +295,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8CD9771316A97772005DAF43 /* AppDelegate_Tests.m in Sources */,
+				8CD9771E16A9AEA4005DAF43 /* MainViewController_Tests.m in Sources */,
+				8CD9772116A9B7FF005DAF43 /* FakeUITouch.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
