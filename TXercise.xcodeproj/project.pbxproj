@@ -27,6 +27,7 @@
 		8CD9771E16A9AEA4005DAF43 /* MainViewController_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD9771D16A9AEA4005DAF43 /* MainViewController_Tests.m */; };
 		8CD9772116A9B7FF005DAF43 /* FakeUITouch.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD9772016A9B7FF005DAF43 /* FakeUITouch.m */; };
 		8CD9772916AA2CCF005DAF43 /* README in Resources */ = {isa = PBXBuildFile; fileRef = 8CD9772816AA2CCF005DAF43 /* README */; };
+		8CD9772316AA2BBB005DAF43 /* sapus-monus-ufo-hud-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CD9772216AA2BBB005DAF43 /* sapus-monus-ufo-hud-hd.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +69,7 @@
 		8CD9771F16A9B7FF005DAF43 /* FakeUITouch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FakeUITouch.h; sourceTree = "<group>"; };
 		8CD9772016A9B7FF005DAF43 /* FakeUITouch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FakeUITouch.m; sourceTree = "<group>"; };
 		8CD9772816AA2CCF005DAF43 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		8CD9772216AA2BBB005DAF43 /* sapus-monus-ufo-hud-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sapus-monus-ufo-hud-hd.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +135,7 @@
 				8CD9771616A97FEA005DAF43 /* MainViewController.m */,
 				8CD9771716A97FEA005DAF43 /* MainViewController.xib */,
 				8CD9771A16A99763005DAF43 /* sapus-monus-selection-hd.png */,
+				8CD9772216AA2BBB005DAF43 /* sapus-monus-ufo-hud-hd.png */,
 				8CD976D916A97452005DAF43 /* Supporting Files */,
 				8CD9772816AA2CCF005DAF43 /* README */,
 			);
@@ -254,6 +257,7 @@
 				8CD9771916A97FEA005DAF43 /* MainViewController.xib in Resources */,
 				8CD9771B16A99763005DAF43 /* sapus-monus-selection-hd.png in Resources */,
 				8CD9772916AA2CCF005DAF43 /* README in Resources */,
+				8CD9772316AA2BBB005DAF43 /* sapus-monus-ufo-hud-hd.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

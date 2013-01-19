@@ -48,9 +48,9 @@
 						</object>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-						<object class="NSCustomResource" key="IBUIImage" id="1028087483">
+						<object class="NSCustomResource" key="IBUIImage">
 							<string key="NSClassName">NSImage</string>
-							<string key="NSResourceName">sapus-monus-selection-hd.png</string>
+							<string key="NSResourceName">sapus-monus-ufo-hud-hd.png</string>
 						</object>
 					</object>
 					<object class="IBUIImageView" id="463445501">
@@ -66,7 +66,10 @@
 						</object>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-						<reference key="IBUIImage" ref="1028087483"/>
+						<object class="NSCustomResource" key="IBUIImage">
+							<string key="NSClassName">NSImage</string>
+							<string key="NSResourceName">sapus-monus-selection-hd.png</string>
+						</object>
 					</object>
 				</array>
 				<string key="NSFrame">{{0, 64}, {320, 416}}</string>
@@ -215,10 +218,10 @@
 		<string key="IBDocument.TargetRuntimeIdentifier">IBCocoaTouchFramework</string>
 		<bool key="IBDocument.PluginDeclaredDependenciesTrackSystemTargetVersion">YES</bool>
 		<int key="IBDocument.defaultPropertyAccessControl">3</int>
-		<object class="NSMutableDictionary" key="IBDocument.LastKnownImageSizes">
-			<string key="NS.key.0">sapus-monus-selection-hd.png</string>
-			<string key="NS.object.0">{1024, 1024}</string>
-		</object>
+		<dictionary class="NSMutableDictionary" key="IBDocument.LastKnownImageSizes">
+			<string key="sapus-monus-selection-hd.png">{1024, 1024}</string>
+			<string key="sapus-monus-ufo-hud-hd.png">{1024, 512}</string>
+		</dictionary>
 		<string key="IBCocoaTouchPluginVersion">1930</string>
 	</data>
 </archive>
