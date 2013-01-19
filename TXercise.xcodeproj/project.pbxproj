@@ -32,6 +32,7 @@
 		8CD9773F16AA349C005DAF43 /* FILE2 in Resources */ = {isa = PBXBuildFile; fileRef = 8CD9773E16AA349C005DAF43 /* FILE2 */; };
 		8CD9774116AA34B6005DAF43 /* FILE3 in Resources */ = {isa = PBXBuildFile; fileRef = 8CD9774016AA34B6005DAF43 /* FILE3 */; };
 		8CD9774316AA350D005DAF43 /* MISSADD1 in Resources */ = {isa = PBXBuildFile; fileRef = 8CD9774216AA350D005DAF43 /* MISSADD1 */; };
+		8CD9774D16AA3B55005DAF43 /* ADDFORBRANCH in Resources */ = {isa = PBXBuildFile; fileRef = 8CD9774C16AA3B55005DAF43 /* ADDFORBRANCH */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,6 +79,7 @@
 		8CD9773E16AA349C005DAF43 /* FILE2 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = FILE2; sourceTree = "<group>"; };
 		8CD9774016AA34B6005DAF43 /* FILE3 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = FILE3; sourceTree = "<group>"; };
 		8CD9774216AA350D005DAF43 /* MISSADD1 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = MISSADD1; sourceTree = "<group>"; };
+		8CD9774C16AA3B55005DAF43 /* ADDFORBRANCH */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ADDFORBRANCH; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +152,7 @@
 				8CD9773E16AA349C005DAF43 /* FILE2 */,
 				8CD9774016AA34B6005DAF43 /* FILE3 */,
 				8CD9774216AA350D005DAF43 /* MISSADD1 */,
+				8CD9774C16AA3B55005DAF43 /* ADDFORBRANCH */,
 			);
 			path = TXercise;
 			sourceTree = "<group>";
@@ -274,6 +277,7 @@
 				8CD9773F16AA349C005DAF43 /* FILE2 in Resources */,
 				8CD9774116AA34B6005DAF43 /* FILE3 in Resources */,
 				8CD9774316AA350D005DAF43 /* MISSADD1 in Resources */,
+				8CD9774D16AA3B55005DAF43 /* ADDFORBRANCH in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
